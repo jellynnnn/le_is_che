@@ -20,7 +20,7 @@ Route::middleware('auth')->group(function () {
     Route::get('student/create', [\App\Http\Controllers\studentmngtController::class, 'create'])->name('student.create');
     Route::get('student/{id}/edit', [\App\Http\Controllers\studentmngtController::class, 'edit'])->name('student.edit');
     Route::put('student/{id}', [\App\Http\Controllers\studentmngtController::class, 'update'])->name('student.update');
-    Route::delete('student/{id}', [\App\Http\Controllers\studentmngtController::class, 'destroy'])->name('  student.destroy');
+    Route::delete('student/{id}', [\App\Http\Controllers\studentmngtController::class, 'destroy'])->name('student.destroy');
     Route::post('student', [\App\Http\Controllers\studentmngtController::class, 'store'])->name('student.store');
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
     Route::put('profile', [\App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
