@@ -19,7 +19,7 @@
                 <div class="col-lg-12">
 
                     <div class="alert alert-info">
-                        This is the table for the students
+                       Basta inedit ko to
                     </div>
 
                     <div class="card">
